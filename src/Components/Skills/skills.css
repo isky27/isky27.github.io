@@ -1,0 +1,5 @@
+.skill__box:hover{
+  background-image: linear-gradient(to top, rgb(133, 124, 220) 50%, transparent 50%);
+  transition: all 0.5s ease-in;
+
+}
