@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.164997c9.css",
-    "main.js": "/static/js/main.754c1c9a.js",
+    "main.css": "/static/css/main.6ec4f122.css",
+    "main.js": "/static/js/main.4dc73e72.js",
+    "static/media/about.gif": "/static/media/about.a9a67bbbfd9c67158deb.gif",
+    "static/media/gymwolf.png": "/static/media/gymwolf.f65f761865182d116a98.png",
+    "static/media/profile.png": "/static/media/profile.54c950a141b11353a18c.png",
+    "static/media/engagebay.png": "/static/media/engagebay.6b5383b71b40942c591b.png",
+    "static/media/semrush.png": "/static/media/semrush.14df0dd046ef95c4af01.png",
+    "static/media/Vinay_Kumar_Resume.pdf": "/static/media/Vinay_Kumar_Resume.fedc2413bba7d053eded.pdf",
     "index.html": "/index.html",
-    "main.164997c9.css.map": "/static/css/main.164997c9.css.map",
-    "main.754c1c9a.js.map": "/static/js/main.754c1c9a.js.map"
+    "main.6ec4f122.css.map": "/static/css/main.6ec4f122.css.map",
+    "main.4dc73e72.js.map": "/static/js/main.4dc73e72.js.map"
   },
   "entrypoints": [
-    "static/css/main.164997c9.css",
-    "static/js/main.754c1c9a.js"
+    "static/css/main.6ec4f122.css",
+    "static/js/main.4dc73e72.js"
   ]
 }
