@@ -1,17 +1,15 @@
 .home{
-background: linear-gradient(35deg,#11cdef,#1171ef)!important;
- background-image: url(../../assets///profile.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    width: 100%;
+    background-image: linear-gradient(35deg,hsl(189, 87%, 50%,0.8),hsl(214, 87%, 50%,0.8)),url(../../assets/home_background.jpg) ;
     background-size: cover;
 }
 .home__container{
-row-gap: 7rem;
+row-gap: 5rem;
+padding-top: 2rem;
 }
 
 .home__content{
     grid-template-columns: 116px 1.3fr 1fr;
-    padding-top: 5.5fr;
     column-gap: 2rem;
     align-items: center;
 }
@@ -23,7 +21,7 @@ row-gap: 7rem;
 }
 .home__social-icon{
     font-size: 1.25rem;
-    color: var(--title-color);
+    color: var(--body-color);
 }
 
 .home__social-icon:hover{
@@ -32,6 +30,7 @@ row-gap: 7rem;
 .home__title{
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
+    color: var(--body-color);
 }
 
 .home__hand{
@@ -42,22 +41,14 @@ row-gap: 7rem;
 
 .home__subtitle{
     position: relative;
+    color: var(--body-color);
     font-size: var(--h3-font-size);
-    padding-left: 5rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
 }
-.home__subtitle::before{
-content: "";
-position: absolute;
-width: 70px;
-height: 1px;
-background-color: var(--text-color);
-left: 0;
-top: 1rem;
-}
 
 .home__description{
+    color: var(--body-color);
     max-width: 400px;
     margin-bottom: var(--mb-3);
 }
@@ -105,7 +96,7 @@ top: 1rem;
 }
 
 .home__scroll-name{
-    color: var(--title-color);
+    color: var(var(--title-color-dark));
     font-weight: var(--font-medium);
     margin-right: var(--mb-0-25);
     margin-left: 2px;
@@ -113,7 +104,7 @@ top: 1rem;
 
 .home__scroll-arrow{
     font-size: 1.25rem;
-    color: var(--title-color);
+    color: var(var(--title-color-dark));
 }
 @media screen and (max-width: 992px) {
 
@@ -129,10 +120,6 @@ top: 1rem;
 .home__subtitle{
     padding-left: 3.75rem;
     margin-bottom: var(--mb-1);
-}
-.home__subtitle::before{
-    width: 42px;
-    top:0.8rem;
 }
 .home__description{
     max-width: initial;
@@ -189,3 +176,22 @@ top: 1rem;
  }
   }
   
+  #madebyGagan{
+   
+        color:#C6F6D5;
+        font-weight: 500;
+        width: 0ch;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: tagline 10s  infinite alternate;
+        border-right: 3px solid hsl(214, 87%, 50%); 
+    }
+    
+    @keyframes tagline {
+          0% {
+              width: 0ch;
+          }
+          50% {
+              width: 22ch;
+          }
+    }

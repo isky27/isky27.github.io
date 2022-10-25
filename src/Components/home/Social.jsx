@@ -12,7 +12,7 @@ const Social = () => {
         <i className="uil uil-envelope-check"></i>
       </a>
       <a
-        href="https://github.com/VinayKumar1801"
+        href="https://github.com/isky27"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
@@ -20,7 +20,7 @@ const Social = () => {
         <i className="uil uil-github"></i>
       </a>
       <a
-        href="https://www.linkedin.com/in/vinaykumar1801/"
+        href="https://www.linkedin.com/in/isky27/"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"

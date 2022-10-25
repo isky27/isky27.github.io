@@ -266,8 +266,6 @@ function All() {
     ],
     [
       <svg
-        width="90px"
-        height="90px"
         viewBox="0 0 256 256"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -385,10 +383,10 @@ function All() {
       <Box w={"full"} m={"auto"}>
         <Grid
           m={"auto"}
-          w={"80%"}
+          w={{ lg: "80%", sm: "70%", base: "70%" }}
           mt={10}
           templateColumns={{
-            base: "1fr",
+            base: "repeat(2,1fr)",
             sm: "repeat(2,1fr)",
             md: "repeat(3,1fr)",
             lg: "repeat(5,1fr)",
@@ -405,11 +403,11 @@ function All() {
               <GridItem
                 m={"auto"}
                 textAlign={"center"}
-                w={"140px"}
-                h={"170px"}
+                w={{ lg: "140px", sm: "130px", base: "100px" }}
+                h={{ lg: "170px", sm: "150px", base: "120px" }}
                 bg={"#f5f7fb"}
                 borderRadius={"10px"}
-                p={6}
+                p={{lg:6, sm:2, base:2}}
                 transition={"transform .2s"}
                 _hover={{
                   border: "2px solid",
@@ -417,10 +415,14 @@ function All() {
                   transform: "scale(1.05)",
                 }}
               >
-                <Box w={"90px"} m={"auto"}>
+                <Box w={{ lg: "90px", sm: "70px", base: "60px" }} m={"auto"}>
                   {ele[0]}
                 </Box>
-                <Text mt={3} fontSize={17} fontWeight={600}>
+                <Text
+                  mt={3}
+                  fontSize={{ lg: 17, sm: 15, base: 15 }}
+                  fontWeight={600}
+                >
                   {ele[1]}
                 </Text>
               </GridItem>

@@ -12,8 +12,8 @@ import {
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./project.css"
-import project1 from "../../assets/semrush.png";
-import project2 from "../../assets/engagebay.png";
+import project2 from "../../assets/semrush.png";
+import project1 from "../../assets/engagebay.png";
 import project3 from "../../assets/gymwolf.png";
 
 const Projects = () => {
@@ -37,33 +37,31 @@ const Projects = () => {
       },
       {
         id: 2,
-        heading: "EngageBay-Clone 2",
+        heading: "Semrush-Clone",
         description:
-          "EngageBay helps growing businesses to scale faster with its affordable, integrated all-in-one marketing, sales & support software",
+          "Semrush is the online visibility management and content marketing SaaS platform",
         techs: [
           ["bx bxl-html5", "#f1a118"],
           ["bx bxl-css3", "#4e95e7"],
           ["bx bxl-javascript", "#f7df1a"],
-          ["bx bxl-react", "#84e3e5"],
         ],
-        link: "https://myengagebay.netlify.app/",
-        github: "https://github.com/isky27/stupendous-afterthought-9911",
+        link: "https://semrush.netlify.app/",
+        github: "https://github.com/isky27/spicy-yak-7891",
         order: ["2", "1"],
         img: project2,
       },
       {
         id: 3,
-        heading: "EngageBay-Clone 3",
+        heading: "Gymwolf-Clone",
         description:
-          "EngageBay helps growing businesses to scale faster with its affordable, integrated all-in-one marketing, sales & support software",
+          "Gymwolf is a workout tracking tool. Add workouts, create your own customized workout plans or find suitable plan from other users.",
         techs: [
           ["bx bxl-html5", "#f1a118"],
           ["bx bxl-css3", "#4e95e7"],
           ["bx bxl-javascript", "#f7df1a"],
-          ["bx bxl-react", "#84e3e5"],
         ],
-        link: "https://myengagebay.netlify.app/",
-        github: "https://github.com/isky27/stupendous-afterthought-9911",
+        link: "https://gymwolf1.netlify.app/",
+        github: "https://github.com/isky27/resonant-dinosaurs-925",
         order: ["1", "2"],
         img: project3,
       },
@@ -100,18 +98,20 @@ const Projects = () => {
         >
           <Box
             w={{ lg: "50%", md: "100%", sm: "100%", base: "100%" }}
-            m={"auto"}  order= {elem.order[0]}
+            m={"auto"}
+            order={elem.order[0]}
           >
             <div
               style={{
                 width: "100%",
                 margin: "auto",
-               
               }}
               data-aos="fade-right"
             >
               <Box m={"auto"} w={{ md: "80%", sm: "90%", base: "90%" }}>
-                <Heading>{elem.heading}</Heading>
+                <Heading color={"var(--title-color-light)"} fontWeight={"600"}>
+                  {elem.heading}
+                </Heading>
                 <Divider mt={"2"} />
                 <Text mt={"3"}>{elem.description}</Text>
               </Box>
@@ -120,9 +120,10 @@ const Projects = () => {
                 templateRows="repeat(2, 1fr)"
                 templateColumns="repeat(2,1fr)"
                 justifyContent={"center"}
+                gap={3}
               >
                 <GridItem rowSpan={1} colSpan={2}>
-                  <Flex alignItems={"center"} gap={3} justifyContent={"center"}>
+                  <Flex alignItems={"center"} wrap={"wrap"} gap={3} justifyContent={"center"}>
                     <Text fontWeight={"700"}>Tech stack : </Text>
                     {elem.techs.map((tech) => (
                       <i
@@ -169,12 +170,15 @@ const Projects = () => {
               </Grid>
             </div>
           </Box>
-          <Box w={{ lg: "50%", md: "80%", sm: "80%", base: "80%" }} m={"auto"} order={elem.order[1]}>
+          <Box
+            w={{ lg: "50%", md: "80%", sm: "80%", base: "80%" }}
+            m={"auto"}
+            order={elem.order[1]}
+          >
             <div
               style={{
                 width: "100%",
                 margin: "auto",
-                
               }}
               data-aos="fade-left"
             >
