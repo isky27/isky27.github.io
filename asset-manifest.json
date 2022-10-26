@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.55418f41.css",
-    "main.js": "/static/js/main.74c964b4.js",
+    "main.css": "/static/css/main.665429a4.css",
+    "main.js": "/static/js/main.8bf76b69.js",
     "static/media/about.gif": "/static/media/about.a9a67bbbfd9c67158deb.gif",
     "static/media/gymwolf.png": "/static/media/gymwolf.f65f761865182d116a98.png",
     "static/media/profile.png": "/static/media/profile.54c950a141b11353a18c.png",
@@ -11,11 +11,11 @@
     "static/media/home_background.jpg": "/static/media/home_background.c7513cd602794d0b7e0e.jpg",
     "static/media/logo.png": "/static/media/logo.43d7175eb2170b7511dc.png",
     "index.html": "/index.html",
-    "main.55418f41.css.map": "/static/css/main.55418f41.css.map",
-    "main.74c964b4.js.map": "/static/js/main.74c964b4.js.map"
+    "main.665429a4.css.map": "/static/css/main.665429a4.css.map",
+    "main.8bf76b69.js.map": "/static/js/main.8bf76b69.js.map"
   },
   "entrypoints": [
-    "static/css/main.55418f41.css",
-    "static/js/main.74c964b4.js"
+    "static/css/main.665429a4.css",
+    "static/js/main.8bf76b69.js"
   ]
 }
