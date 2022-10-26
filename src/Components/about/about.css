@@ -70,7 +70,7 @@ padding: 1rem 1.25rem;
   
   @media screen and (max-width: 576px) {
     .about__description{
-        padding: 0 3rem;
+        padding: 0 1rem;
     }
   }
   

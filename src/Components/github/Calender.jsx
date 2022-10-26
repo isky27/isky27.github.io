@@ -21,7 +21,12 @@ const Calender = () => {
       });
     };
   return (
-    <Box textAlign={"center"} w={"75%"} m={"auto"} mb={20}>
+    <Box
+      textAlign={"center"}
+      w={{lg:"75%", md: "80%", sm: "90%", base: "90%" }}
+      m={"auto"}
+      mb={{lg:"8rem", md:"6rem", sm:"5rem", base:"5rem"}}
+    >
       <h2 className="section__title">My Github Calender</h2>
       <div className="calender__container container ">
         <GitHubCalender

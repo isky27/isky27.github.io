@@ -81,7 +81,7 @@ const Projects = () => {
           className='project__box'
           key={elem.id}
           textAlign="center"
-          w={"75%"}
+          w={{lg:"75%", md:"80%", sm:"80%", base:"90%"}}
           m={"auto"}
           justify={"space-between"}
           mb={20}

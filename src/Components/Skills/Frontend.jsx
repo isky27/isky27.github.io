@@ -166,7 +166,7 @@ function Frontend() {
     <Box w={"full"} m={"auto"}>
       <Grid
         m={"auto"}
-        w={{ lg: "80%", sm: "80%", base: "90%" }}
+        w={{ lg: "80%", sm: "100%", base: "100%" }}
         background={
           "linear-gradient(35deg,hsl(189, 87%, 50%,0.2),hsl(214, 87%, 50%,0.8))"
         }

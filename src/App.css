@@ -10,7 +10,7 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
-  --title-color: #11cdef;
+  --title-color: #0cb2cf;
   --title-color-light:rgb(26, 26, 64);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
@@ -208,7 +208,7 @@ img {
   }
 
   .section__subtitle {
-    margin-bottom: var(--mb-3);
+    margin-bottom: var(--mb-1-5);
   }
 }
 
@@ -224,6 +224,9 @@ img {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
+  }
+    .section__subtitle {
+    margin-bottom: var( --mb-1-5);
   }
 }
 

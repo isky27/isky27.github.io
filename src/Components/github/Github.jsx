@@ -6,7 +6,7 @@ const Github = () => {
 
 
   return (
-    <div className='section'>
+    <div className='github__container section'>
       <Calender />
       <Stats />
       <svg

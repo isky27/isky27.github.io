@@ -4,10 +4,15 @@ import './github.css'
 
 const Stats = () => {
   return (
-    <Box textAlign={"center"} w={"75%"} m={"auto"} mb={20}>
+    <Box
+      textAlign={"center"}
+      w={{ lg: "75%", md: "80%", sm: "90%", base: "90%" }}
+      m={"auto"}
+      mb={10}
+    >
       <h2 className="section__title">My Statistics</h2>
       <div className="calender__container container ">
-        <Box m={"auto"}>
+        <Box m={"auto"} w={"full"}>
           <Link href="https://github.com/isky27" isExternal>
             <Image
               m={"auto"}
@@ -20,19 +25,20 @@ const Stats = () => {
         <Flex
           w={"full"}
           m="auto"
-          mt={"7"}
+          mt={7}
+          gap={4}
           flexDirection={{ lg: "row", sm: "column", base: "column" }}
-          justify={{ lg: "space-around", sm: "center", base: "center" }}
+          justifyContent={"space-around"}
         >
-          <Link href="https://github.com/isky27" isExternal>
+          <Link m={"auto"} href="https://github.com/isky27" isExternal>
             <Image
               align="center"
               src="https://github-readme-stats.vercel.app/api/top-langs/?username=isky27" //launguages
             />
           </Link>
-          <Link href="https://github.com/isky27" isExternal>
+          <Link m={"auto"} href="https://github.com/isky27" isExternal>
             <Image
-              align="left"
+              align="center"
               src="https://github-readme-stats.vercel.app/api?username=isky27&count_private=true&show_icons=true" //stats
             />
           </Link>
