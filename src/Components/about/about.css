@@ -46,6 +46,9 @@ padding: 1rem 1.25rem;
     font-size: var(--tiny-font-size);
 } */
 @media screen and (max-width: 992px) {
+    .about{
+        margin-top: 100px;
+    }
     .about__container{
         grid-template-columns: 1fr;
         row-gap: 2.5rem;
@@ -69,6 +72,9 @@ padding: 1rem 1.25rem;
   /* For medium devices */
   
   @media screen and (max-width: 576px) {
+    .about{
+        margin-top: 100px;
+    }
     .about__description{
         padding: 0 1rem;
     }

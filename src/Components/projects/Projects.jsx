@@ -77,11 +77,11 @@ const Projects = () => {
       <h2 className="section__title">Projects</h2>
       <span className="section__subtitle">The things I make</span>
       {projects.map((elem) => (
-        <Flex 
-          className='project__box'
+        <Flex
+          className="project__box"
           key={elem.id}
           textAlign="center"
-          w={{lg:"75%", md:"80%", sm:"80%", base:"90%"}}
+          w={{ lg: "75%", md: "80%", sm: "80%", base: "90%" }}
           m={"auto"}
           justify={"space-between"}
           mb={20}
@@ -95,8 +95,10 @@ const Projects = () => {
             md: "column",
             sm: "column",
             base: "column",
-          }}   
-          background= {"linear-gradient(35deg,hsl(189, 87%, 50%,0.2),hsl(214, 87%, 50%,0.8))"}
+          }}
+          background={
+            "linear-gradient(35deg,hsl(189, 87%, 50%,0.2),hsl(214, 87%, 50%,0.8))"
+          }
         >
           <Box
             w={{ lg: "50%", md: "100%", sm: "100%", base: "100%" }}
@@ -108,13 +110,17 @@ const Projects = () => {
                 width: "100%",
                 margin: "auto",
               }}
-              data-aos="fade-right"
+              data-aos="fade-up"
+              data-aos-easing="ease-in"
             >
               <Box m={"auto"} w={{ md: "80%", sm: "90%", base: "90%" }}>
                 <Heading
                   color={"var(--title-color-light)"}
                   fontWeight={"600"}
-                  fontSize={{ sm: "var(--h2-font-size)", base: "var(--h2-font-size)" }}
+                  fontSize={{
+                    sm: "var(--h2-font-size)",
+                    base: "var(--h2-font-size)",
+                  }}
                 >
                   {elem.heading}
                 </Heading>
@@ -191,7 +197,8 @@ const Projects = () => {
                 width: "100%",
                 margin: "auto",
               }}
-              data-aos="fade-left"
+              data-aos="fade-up"
+              data-aos-easing="ease-in"
             >
               <Box m={"auto"} w={"full"}>
                 <Image w={"100%"} m={"auto"} src={elem.img} alt="Dan Abramov" />
