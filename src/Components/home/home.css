@@ -38,8 +38,8 @@ padding-top: 2rem;
 }
 
 .home__hand{
-    width: 38px;
-    height: 38px;
+    width: 45px;
+    height: 45px;
     margin-left: 0.4rem;
 }
 
@@ -114,8 +114,8 @@ padding-top: 2rem;
 
 }
 .home__hand{
-    width: 26px;
-    height: 26px;
+    width: 32px;
+    height: 32px;
 }
 .home__title{
     font-size: var(--big-font-size);

@@ -110,7 +110,7 @@ const Projects = () => {
                 width: "100%",
                 margin: "auto",
               }}
-              data-aos="fade-up"
+              data-aos="fade-down"
               data-aos-easing="ease-in"
             >
               <Box m={"auto"} w={{ md: "80%", sm: "90%", base: "90%" }}>
