@@ -5,9 +5,8 @@ import profile from "../../assets/logo.png"
 import CV from "../../assets/Gagan_Jindal_Resume.pdf";
 import { Flex } from '@chakra-ui/react';
 const Header = () => {
-const [Toggle, showMenu] = useState(false)
+ const [Toggle, showMenu] = useState(false)
  const [font, setFont] = useState("var(--body-color)");
-
  const [navColor, setnavColor] = useState("transparent");
  const listenScrollEvent = () => {
    if(window.scrollY > 50){
@@ -44,27 +43,48 @@ const [Toggle, showMenu] = useState(false)
               </a>
             </li>
             <li className="nav__item">
-              <a href="#about" className="nav__link">
+              <a
+                href="#about"
+                className="nav__link"
+                onClick={() => showMenu(!Toggle)}
+              >
                 <i className="uil uil-user nav__icon"></i>About
               </a>
             </li>
             <li className="nav__item">
-              <a href="#skills" className="nav__link">
+              <a
+                href="#skills"
+                className="nav__link"
+                onClick={() => showMenu(!Toggle)}
+              >
                 <i className="uil uil-file-alt nav__icon"></i>Skills
               </a>
             </li>
             <li className="nav__item">
-              <a href="#projects" className="nav__link">
+              <a
+                href="#projects"
+                className="nav__link"
+                onClick={() => showMenu(!Toggle)}
+              >
                 <i className="uil uil-briefcase-alt nav__icon"></i>Projects
               </a>
             </li>
             <li className="nav__item">
-              <a href="#contact" className="nav__link">
+              <a
+                href="#contact"
+                className="nav__link"
+                onClick={() => showMenu(!Toggle)}
+              >
                 <i className="uil uil-message nav__icon"></i>Contact
               </a>
             </li>
             <li className="nav__item">
-              <a download="" href={CV} className="nav__link">
+              <a
+                download=""
+                href={CV}
+                className="nav__link"
+                onClick={() => showMenu(!Toggle)}
+              >
                 <i className="uil uil-scenery nav__icon"></i>Resume
               </a>
             </li>

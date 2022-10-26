@@ -4,18 +4,19 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3rem;
+  
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
   --title-color: #11cdef;
-  --title-color-light:hsl(var(--hue), var(--sat), 20%);
+  --title-color-light:rgb(26, 26, 64);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
-  --button-color: linear-gradient(35deg,#11cdef,#1171ef);
+  --button-color: linear-gradient(35deg,#05444f,#1171ef);
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -129,6 +130,8 @@ img {
 }
 
 .section__subtitle {
+  color: var(--title-color-light);
+  font-weight: var(--font-semi-bold);
   display: block;
   font-size: var(--h3-font-size);
   margin-bottom: 2rem;
@@ -144,6 +147,8 @@ img {
   max-width: 968px;
   margin-left: auto;
   margin-right: auto;
+  padding: 1.5rem;
+  border-radius: 10px;
 }
 
 .grid {
@@ -221,3 +226,4 @@ img {
     margin-right: var(--mb-1);
   }
 }
+

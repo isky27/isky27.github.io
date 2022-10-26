@@ -2,6 +2,7 @@ import React from 'react'
 import GitHubCalender from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
 import { Box } from '@chakra-ui/react';
+import './github.css'
 const Calender = () => {
     const selectLastHalfYear = (contributions) => {
       const currentYear = new Date().getFullYear();
@@ -22,10 +23,7 @@ const Calender = () => {
   return (
     <Box textAlign={"center"} w={"75%"} m={"auto"} mb={20}>
       <h2 className="section__title">My Github Calender</h2>
-      <Box
-        m={"auto"}
-        mt={"7"}
-      >
+      <div className="calender__container container ">
         <GitHubCalender
           username="isky27"
           transformData={selectLastHalfYear}
@@ -35,7 +33,7 @@ const Calender = () => {
         >
           <ReactTooltip delayShow={20} html />
         </GitHubCalender>
-      </Box>
+      </div>
     </Box>
   );
 }

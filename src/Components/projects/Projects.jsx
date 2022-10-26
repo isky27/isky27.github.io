@@ -26,9 +26,9 @@ const Projects = () => {
           "EngageBay helps growing businesses to scale faster with its affordable, integrated all-in-one marketing, sales & support software",
         techs: [
           ["bx bxl-html5", "#f1a118"],
-          ["bx bxl-css3", "#4e95e7"],
+          ["bx bxl-css3", "hsl(214, 87%, 50%,0.8)"],
           ["bx bxl-javascript", "#f7df1a"],
-          ["bx bxl-react", "#84e3e5"],
+          ["bx bxl-react", "#11cdef"],
         ],
         link: "https://myengagebay.netlify.app/",
         github: "https://github.com/isky27/stupendous-afterthought-9911",
@@ -42,7 +42,7 @@ const Projects = () => {
           "Semrush is the online visibility management and content marketing SaaS platform",
         techs: [
           ["bx bxl-html5", "#f1a118"],
-          ["bx bxl-css3", "#4e95e7"],
+          ["bx bxl-css3", "hsl(214, 87%, 50%,0.8)"],
           ["bx bxl-javascript", "#f7df1a"],
         ],
         link: "https://semrush.netlify.app/",
@@ -57,7 +57,7 @@ const Projects = () => {
           "Gymwolf is a workout tracking tool. Add workouts, create your own customized workout plans or find suitable plan from other users.",
         techs: [
           ["bx bxl-html5", "#f1a118"],
-          ["bx bxl-css3", "#4e95e7"],
+          ["bx bxl-css3", "hsl(214, 87%, 50%,0.8)"],
           ["bx bxl-javascript", "#f7df1a"],
         ],
         link: "https://gymwolf1.netlify.app/",
@@ -77,7 +77,8 @@ const Projects = () => {
       <h2 className="section__title">Projects</h2>
       <span className="section__subtitle">The things I make</span>
       {projects.map((elem) => (
-        <Flex
+        <Flex 
+          className='project__box'
           key={elem.id}
           textAlign="center"
           w={"75%"}
@@ -94,7 +95,8 @@ const Projects = () => {
             md: "column",
             sm: "column",
             base: "column",
-          }}
+          }}   
+          background= {"linear-gradient(35deg,hsl(189, 87%, 50%,0.2),hsl(214, 87%, 50%,0.8))"}
         >
           <Box
             w={{ lg: "50%", md: "100%", sm: "100%", base: "100%" }}
@@ -109,7 +111,11 @@ const Projects = () => {
               data-aos="fade-right"
             >
               <Box m={"auto"} w={{ md: "80%", sm: "90%", base: "90%" }}>
-                <Heading color={"var(--title-color-light)"} fontWeight={"600"}>
+                <Heading
+                  color={"var(--title-color-light)"}
+                  fontWeight={"600"}
+                  fontSize={{ sm: "var(--h2-font-size)", base: "var(--h2-font-size)" }}
+                >
                   {elem.heading}
                 </Heading>
                 <Divider mt={"2"} />
@@ -123,7 +129,12 @@ const Projects = () => {
                 gap={3}
               >
                 <GridItem rowSpan={1} colSpan={2}>
-                  <Flex alignItems={"center"} wrap={"wrap"} gap={3} justifyContent={"center"}>
+                  <Flex
+                    alignItems={"center"}
+                    wrap={"wrap"}
+                    gap={3}
+                    justifyContent={"center"}
+                  >
                     <Text fontWeight={"700"}>Tech stack : </Text>
                     {elem.techs.map((tech) => (
                       <i

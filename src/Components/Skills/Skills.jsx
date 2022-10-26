@@ -18,7 +18,7 @@ const Skills = () => {
       <h2 className="section__title">Skill</h2>
       <span className="section__subtitle">My Technical Level</span>
       <div className="tabs__container">
-        <Tabs variant="soft-rounded" colorScheme="green">
+        <Tabs variant="soft-rounded" colorScheme="blue">
           <TabList>
             <Flex w={"full"} direction={"row"} justify={"center"}>
               <Tab>All</Tab>
@@ -26,15 +26,15 @@ const Skills = () => {
               <Tab>Backend</Tab>
             </Flex>
           </TabList>
-          <TabPanels>
+          <TabPanels >
             <TabPanel>
               <All />
             </TabPanel>
             <TabPanel>
-              <Frontend/>
+              <Frontend />
             </TabPanel>
             <TabPanel>
-             <Backend/>
+              <Backend />
             </TabPanel>
           </TabPanels>
         </Tabs>

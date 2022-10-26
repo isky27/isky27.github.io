@@ -1,14 +1,15 @@
+
 .about__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     column-gap: 4rem;
+    background:linear-gradient(35deg,hsl(189, 87%, 50%,0.2),hsl(214, 87%, 50%,0.8));
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .about__img{
     width: 550px;
     border-radius: 1.5rem;
     justify-self: center;
-
-
 }
 
 /* .about__info{

@@ -163,53 +163,59 @@ function Frontend() {
   }, []);
 
   return (
-    <Box w={"full"}>
-      <Box w={"full"} m={"auto"}>
-        <Grid
-          m={"auto"}
-          w={"80%"}
-          mt={10}
-          templateColumns={{
-            base: "1fr",
-            sm: "repeat(2,1fr)",
-            md: "repeat(3,1fr)",
-            lg: "repeat(5,1fr)",
-          }}
-          gap={6}
-        >
-          {Data.map((ele) => (
-            <div
-              className="skill__box"
-              key={ele[1]}
-              data-aos="fade-up"
-              data-aos-easing="ease-in"
+    <Box w={"full"} m={"auto"}>
+      <Grid
+        m={"auto"}
+        w={{ lg: "80%", sm: "80%", base: "90%" }}
+        background={
+          "linear-gradient(35deg,hsl(189, 87%, 50%,0.2),hsl(214, 87%, 50%,0.8))"
+        }
+        p={9}
+        borderRadius={10}
+        templateColumns={{
+          base: "repeat(2,1fr)",
+          sm: "repeat(2,1fr)",
+          md: "repeat(3,1fr)",
+          lg: "repeat(5,1fr)",
+        }}
+        gap={6}
+      >
+        {Data.map((ele) => (
+          <div
+            key={ele[1]}
+            data-aos="fade-up"
+            data-aos-easing="ease-in"
+            className="skill__box"
+          >
+            <GridItem
+              m={"auto"}
+              textAlign={"center"}
+              w={{ lg: "140px", sm: "130px", base: "100px" }}
+              h={{ lg: "170px", sm: "150px", base: "120px" }}
+              bg={"#f5f7fb"}
+              borderRadius={"10px"}
+              p={{ lg: 6, sm: 2, base: 2 }}
+              transition={"transform .2s"}
+              _hover={{
+                border: "2px solid",
+                borderColor: "#335eea;",
+                transform: "scale(1.05)",
+              }}
             >
-              <GridItem
-                m={"auto"}
-                textAlign={"center"}
-                w={"140px"}
-                h={"170px"}
-                bg={"#f5f7fb"}
-                borderRadius={"10px"}
-                p={6}
-                transition={"transform .2s"}
-                _hover={{
-                  border: "2px solid",
-                  borderColor: "#335eea;",
-                  transform: "scale(1.05)",
-                }}
+              <Box w={{ lg: "90px", sm: "70px", base: "60px" }} m={"auto"}>
+                {ele[0]}
+              </Box>
+              <Text
+                mt={3}
+                fontSize={{ lg: 17, sm: 15, base: 15 }}
+                fontWeight={600}
               >
-                <Box w={"90px"} m={"auto"}>
-                  {ele[0]}
-                </Box>
-                <Text mt={3} fontSize={17} fontWeight={600}>
-                  {ele[1]}
-                </Text>
-              </GridItem>
-            </div>
-          ))}
-        </Grid>
-      </Box>
+                {ele[1]}
+              </Text>
+            </GridItem>
+          </div>
+        ))}
+      </Grid>
     </Box>
   );
 }
