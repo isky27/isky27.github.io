@@ -23,9 +23,9 @@ const Calender = () => {
   return (
     <Box
       textAlign={"center"}
-      w={{lg:"75%", md: "80%", sm: "90%", base: "90%" }}
+      w={{ lg: "75%", md: "80%", sm: "90%", base: "90%" }}
       m={"auto"}
-      mb={{lg:"8rem", md:"6rem", sm:"5rem", base:"5rem"}}
+      mb={{ lg: "8rem", md: "6rem", sm: "5rem", base: "5rem" }}
     >
       <h2 className="section__title">My Github Calender</h2>
       <div className="calender__container container ">
@@ -33,7 +33,7 @@ const Calender = () => {
           username="isky27"
           transformData={selectLastHalfYear}
           blockSize={20}
-          fontSize={18}
+          fontSize={window.innerWidth > 576 ? 18 : 13}
           hideColorLegend
         >
           <ReactTooltip delayShow={20} html />
