@@ -244,6 +244,7 @@ function Backend() {
           "linear-gradient(35deg,hsl(189, 87%, 50%,0.2),hsl(214, 87%, 50%,0.8))"
         }
         p={9}
+        boxShadow="2xl"
         borderRadius={10}
         templateColumns={{
           base: "repeat(2,1fr)",

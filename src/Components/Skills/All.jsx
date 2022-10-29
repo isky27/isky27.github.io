@@ -64,68 +64,21 @@ function All() {
       "JavaScript",
     ],
     [
-      <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient
-            id="bootstrap-original-a"
-            x1="76.079"
-            x2="523.48"
-            y1="10.798"
-            y2="365.95"
-            gradientTransform="translate(1.11 14.613) scale(.24566)"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#9013fe" offset="0" />
-            <stop stopColor="#6610f2" offset="1" />
-          </linearGradient>
-          <linearGradient
-            id="bootstrap-original-b"
-            x1="193.51"
-            x2="293.51"
-            y1="109.74"
-            y2="278.87"
-            gradientTransform="translate(0 52)"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#fff" offset="0" />
-            <stop stopColor="#f1e5fc" offset="1" />
-          </linearGradient>
-          <filter
-            id="bootstrap-original-c"
-            x="161.9"
-            y="135.46"
-            width="197"
-            height="249"
-            colorInterpolationFilters="sRGB"
-            filterUnits="userSpaceOnUse"
-          >
-            <feFlood floodOpacity="0" result="BackgroundImageFix" />
-            <feColorMatrix
-              in="SourceAlpha"
-              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            />
-            <feOffset dy="4" />
-            <feGaussianBlur stdDeviation="8" />
-            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-            <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
-            <feBlend
-              in="SourceGraphic"
-              in2="effect1_dropShadow"
-              result="shape"
-            />
-          </filter>
-        </defs>
+      <svg
+        color="rgb(100, 39, 176)"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="currentColor"
+        class="bi bi-bootstrap-fill"
+        viewBox="0 0 16 16"
+      >
         <path
-          d="M14.985 27.712c-.237-6.815 5.072-13.099 12.249-13.099h73.54c7.177 0 12.486 6.284 12.249 13.099-.228 6.546.068 15.026 2.202 21.94 2.141 6.936 5.751 11.319 11.664 11.883v6.387c-5.913.564-9.523 4.947-11.664 11.883-2.134 6.914-2.43 15.394-2.202 21.94.237 6.815-5.072 13.098-12.249 13.098h-73.54c-7.177 0-12.486-6.284-12.249-13.098.228-6.546-.068-15.026-2.203-21.94-2.14-6.935-5.76-11.319-11.673-11.883v-6.387c5.913-.563 9.533-4.947 11.673-11.883 2.135-6.914 2.43-15.394 2.203-21.94z"
-          fill="url(#bootstrap-original-a)"
-        />
+          d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"
+          fill="#6427b0"
+        ></path>
         <path
-          transform="translate(1.494 2.203) scale(.24566)"
-          d="M267.1 364.46c47.297 0 75.798-23.158 75.798-61.355 0-28.873-20.336-49.776-50.532-53.085v-1.203c22.185-3.609 39.594-24.211 39.594-47.219 0-32.783-25.882-54.138-65.322-54.138h-88.74v217zm-54.692-189.48h45.911c24.958 0 39.131 11.128 39.131 31.279 0 21.505-16.484 33.535-46.372 33.535h-38.67zm0 161.96v-71.431h45.602c32.661 0 49.608 12.03 49.608 35.49 0 23.459-16.484 35.941-47.605 35.941z"
-          fill="url(#bootstrap-original-b)"
-          filter="url(#bootstrap-original-c)"
-          stroke="#fff"
-        />
+          d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"
+          fill="#6427b0"
+        ></path>
       </svg>,
       "BootStrap",
     ],
@@ -146,7 +99,7 @@ function All() {
           fill="#764abc"
         />
       </svg>,
-      "Redux"
+      "Redux",
     ],
     [
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
@@ -371,6 +324,21 @@ function All() {
         />
       </svg>,
       "Git",
+    ],
+    [
+      <svg
+        color=" rgb(105, 213, 221);"
+        role="img"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>Chakra UI</title>
+        <path
+          d="M12 0C5.352 0 0 5.352 0 12s5.352 12 12 12 12-5.352 12-12S18.648 0 12 0zm2.8 4.333c.13-.004.248.136.171.278l-3.044 5.58a.187.187 0 00.164.276h5.26c.17 0 .252.207.128.323l-9.22 8.605c-.165.154-.41-.063-.278-.246l4.364-6.021a.187.187 0 00-.151-.296H6.627a.187.187 0 01-.131-.32l8.18-8.123a.182.182 0 01.125-.056z"
+          fill="#69d5dd"
+        ></path>
+      </svg>,
+      "Chakra UI",
     ],
   ];
 

@@ -18,7 +18,7 @@ function App() {
     setTimeout(() => {
       spinner.style.display = "none";
       setLoading(false);
-    }, 3200);
+    },1000);
   }
 
   return (

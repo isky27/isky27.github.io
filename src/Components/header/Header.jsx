@@ -81,7 +81,7 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a
-                href={CV}
+                href="https://drive.google.com/file/d/1TcZ5J6ragfqIMWExOZztM_xQTZu6Ud9f/view?usp=share_link"
                 target="_blank"
                 className="nav__link"
                 onClick={() => showMenu(!Toggle)}
