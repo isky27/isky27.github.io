@@ -6,10 +6,10 @@ const Github = () => {
 
 
   return (
-    <div className='github__container section'>
+    <section className="github__container section" id="github">
       <Calender />
       <Stats />
-    </div>
+    </section>
   );
 }
 

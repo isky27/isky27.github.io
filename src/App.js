@@ -10,6 +10,8 @@ import Projects from './Components/projects/Projects';
 import Github from './Components/github/Github';
 import Testimonial from './Components/testimonials/Testimonial';
 import Contact from './Components/contact/Contact';
+import Footer from './Components/footer/Footer';
+import ScrollUp from './Components/scrollup/ScrollUp';
 function App() {
 
   const [loading, setLoading] = useState(true);
@@ -33,6 +35,8 @@ function App() {
       {/* <Testimonial/> */}
       <Contact/>
     </main>
+      <Footer />
+      <ScrollUp/>
   </div>) 
   );
 }

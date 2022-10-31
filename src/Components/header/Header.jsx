@@ -2,7 +2,6 @@ import React from 'react'
 import { useState, useEffect } from "react";
 import './header.css'
 import profile from "../../assets/logo.png"
-import CV from "../../assets/Gagan_Jindal_Resume.pdf";
 const Header = () => {
  const [Toggle, showMenu] = useState(false)
  const [font, setFont] = useState("var(--body-color)");
@@ -40,7 +39,10 @@ const Header = () => {
                 className="nav__link active-link"
                 onClick={() => showMenu(!Toggle)}
               >
-                <i className="uil uil-estate nav__icon"></i>Home
+                <span className="nav__icon-div">
+                  <i className="bx bx-home nav__icon"></i>
+                </span>
+                Home
               </a>
             </li>
             <li className="nav__item">
@@ -49,7 +51,10 @@ const Header = () => {
                 className="nav__link"
                 onClick={() => showMenu(!Toggle)}
               >
-                <i className="uil uil-user nav__icon"></i>About
+                <span className="nav__icon-div">
+                  <i className="bx bx-user nav__icon"></i>
+                </span>
+                About
               </a>
             </li>
             <li className="nav__item">
@@ -58,7 +63,10 @@ const Header = () => {
                 className="nav__link"
                 onClick={() => showMenu(!Toggle)}
               >
-                <i className="uil uil-file-alt nav__icon"></i>Skills
+                <span className="nav__icon-div">
+                  <i className="bx bx-file nav__icon"></i>
+                </span>
+                Skills
               </a>
             </li>
             <li className="nav__item">
@@ -67,7 +75,10 @@ const Header = () => {
                 className="nav__link"
                 onClick={() => showMenu(!Toggle)}
               >
-                <i className="uil uil-briefcase-alt nav__icon"></i>Projects
+                <span className="nav__icon-div">
+                  <i className="bx bx-briefcase-alt-2 nav__icon"></i>
+                </span>
+                Projects
               </a>
             </li>
             <li className="nav__item">
@@ -76,7 +87,10 @@ const Header = () => {
                 className="nav__link"
                 onClick={() => showMenu(!Toggle)}
               >
-                <i className="uil uil-message nav__icon"></i>Contact
+                <span className="nav__icon-div">
+                  <i className="bx bx-send nav__icon"></i>
+                </span>
+                Contact
               </a>
             </li>
             <li className="nav__item">
@@ -94,18 +108,23 @@ const Header = () => {
                     borderRadius: ".3rem",
                   }}
                 >
-                  <i className="uil uil-scenery nav__icon"></i>Resume
+                  <span className="nav__icon-div">
+                    <i className="bx bx-image-alt nav__icon"></i>
+                  </span>
+                  Resume
                 </button>
               </a>
             </li>
           </ul>
-          <i
-            className="uil uil-times nav__close"
-            onClick={() => showMenu(!Toggle)}
-          ></i>
+          <span className="nav__icon-div">
+            <i
+              className="bx bx-x nav__close"
+              onClick={() => showMenu(!Toggle)}
+            ></i>
+          </span>
         </div>
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-          <i className="uil uil-apps"></i>
+          <i className="bx bx-grid-alt"></i>
         </div>
       </nav>
     </header>

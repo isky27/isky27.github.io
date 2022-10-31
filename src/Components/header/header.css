@@ -45,11 +45,12 @@
     font-weight: var(--font-medium);
     transition: .3s;
 }
-
-
+.nav__icon-div{
+    display:none;
+}
 
 .nav__icon,.nav__close,.nav__toggle{
-    display: none;
+    display:none
 }
 
 .active-link,.nav__link:hover{
@@ -111,7 +112,7 @@
 .nav__link{
     color: var(--title-color-light);
 }
-    .nav__icon,.nav__close,.nav__toggle{
+    .nav__icon-div,.nav__icon,.nav__close,.nav__toggle{
         display: block;
     }
 }
