@@ -27,6 +27,7 @@ const Footer = () => {
             href="mailto:gaganjindal50@gmail.com"
             className="footer__social-icon"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="bx bxl-gmail"></i>
           </a>
@@ -34,6 +35,7 @@ const Footer = () => {
             href="https://github.com/isky27"
             className="footer__social-icon"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="bx bxl-github"></i>
           </a>
@@ -41,6 +43,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/isky27/"
             className="footer__social-icon"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="bx bxl-linkedin"></i>
           </a>

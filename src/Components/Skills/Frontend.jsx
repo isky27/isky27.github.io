@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Text, Grid, GridItem, Box ,Flex} from "@chakra-ui/react";
+import { Text, Grid, GridItem, Box} from "@chakra-ui/react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
