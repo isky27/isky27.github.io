@@ -408,10 +408,10 @@ function All() {
               m={"auto"}
               textAlign={"center"}
               w={{ lg: "140px", sm: "130px", base: "100px" }}
-              h={{ lg: "170px", sm: "150px", base: "120px" }}
+              h={{ lg: "150px", sm: "140px", base: "110px" }}
               bg={"#f5f7fb"}
               borderRadius={"10px"}
-              p={{ lg: 6, sm: 2, base: 2 }}
+              p={{ lg: 4, sm: 2, base: 2 }}
               transition={"transform .2s"}
               _hover={{
                 border: "2px solid",
