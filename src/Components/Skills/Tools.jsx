@@ -56,7 +56,7 @@ function Tools() {
     <Box w={"full"} m={"auto"}>
       <Grid
         m={"auto"}
-        w={{ lg: "80%", sm: "100%", base: "100%" }}
+        w={{ lg: "90%", sm: "100%", base: "100%" }}
         background={
           "linear-gradient(35deg,hsl(189, 87%, 50%,0.2),hsl(214, 87%, 50%,0.8))"
         }
@@ -66,10 +66,10 @@ function Tools() {
         templateColumns={{
           base: "repeat(2,1fr)",
           sm: "repeat(2,1fr)",
-          md: "repeat(3,1fr)",
+          md: "repeat(4,1fr)",
           lg: "repeat(5,1fr)",
         }}
-        gap={6}
+        gap={{ lg: 6, md: 6, sm: 6, base: 6 }}
       >
         {Data.map((ele) => (
           <div
