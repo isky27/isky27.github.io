@@ -31,7 +31,7 @@ const Calender = () => {
       <div className="calender__container container ">
         <GitHubCalender
           username="isky27"
-          transformData={selectLastHalfYear}
+          // transformData={selectLastHalfYear}
           blockSize={20}
           fontSize={window.innerWidth > 576 ? 18 : 13}
           hideColorLegend
