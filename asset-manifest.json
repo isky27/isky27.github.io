@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.e62e3ce0.css",
-    "main.js": "/static/js/main.84c73c7f.js",
+    "main.js": "/static/js/main.2b5c8629.js",
     "static/media/about.gif": "/static/media/about.a9a67bbbfd9c67158deb.gif",
     "static/media/gymwolf.png": "/static/media/gymwolf.3d4bdd4941749ea6a982.png",
     "static/media/waving-hand.gif": "/static/media/waving-hand.e8b7aa58b12e98ad37d8.gif",
     "static/media/engagebay.png": "/static/media/engagebay.3d163912fee0c9335066.png",
     "static/media/semrush.png": "/static/media/semrush.4c79e82ce17d93e8462f.png",
     "static/media/profile.png": "/static/media/profile.54c950a141b11353a18c.png",
-    "static/media/Gagan-Jindal-Resume.pdf": "/static/media/Gagan-Jindal-Resume.acfe52abac13b133f4a0.pdf",
+    "static/media/Gagan-Jindal-Resume.pdf": "/static/media/Gagan-Jindal-Resume.a388d885b618c5dda660.pdf",
     "static/media/home_background.jpg": "/static/media/home_background.c7513cd602794d0b7e0e.jpg",
     "static/media/logo.png": "/static/media/logo.43d7175eb2170b7511dc.png",
     "index.html": "/index.html",
     "main.e62e3ce0.css.map": "/static/css/main.e62e3ce0.css.map",
-    "main.84c73c7f.js.map": "/static/js/main.84c73c7f.js.map"
+    "main.2b5c8629.js.map": "/static/js/main.2b5c8629.js.map"
   },
   "entrypoints": [
     "static/css/main.e62e3ce0.css",
-    "static/js/main.84c73c7f.js"
+    "static/js/main.2b5c8629.js"
   ]
 }
